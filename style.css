@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+/* .banner-area-start */
+.banner-bg{
+    background-image: url(image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+    Top:  133px;
+    
+    
+
+}
+.banner-area{
+padding: 5% 0 0 5% ;
+}
+.banner-area h1{
+    background-color: white;
+    width: 359px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+
+   letter-spacing: 15px;
+   padding: 20px;
+}
+.banner-area p{
+    background-color: white;
+    width: 499px;
+    padding: 50px;
+    letter-spacing: 1px;
+}
+/* banner-area-end */
+/* service-area-start */
+.banner-services{
+    background-image: url(image/service.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+    Top:  133px;
+}
+.services-area{
+    padding: 5% 0 0 5%;
+}
+.services-area h1{
+    background-color: white;
+    width: 359px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    letter-spacing: 15px;
+    padding: 20px;
+}
+.services-area p{
+    background-color: white;
+    width: 1134px;
+    height: 93px;
+    top: 1692px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+}
+/* service-area-end */
+/* about-us-start */
+.banner-about-us{
+    background-image: url(image/about-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+    Top:  133px;
+    
+}
+.about-us-area{
+ padding-top:  20px; 
+ padding-bottom: 20px;
+}
+.about-us-area h1{
+    background-color: white;
+    width: 359px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    letter-spacing: 15px;
+    padding: 20px;
+}
+.about-us-area p{
+    background-color: white;
+    width: 1134px;
+    height: 93px;
+    top: 1692px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+}
+/* about-us-end */
+ /* our-team-start */
+.our-team{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* our-team-end */
+/* social-area-start */
+.banner-social{
+    background-image: url(image/social.png);   
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    height: 664px;
+    Top:  133px;
+}
+.social-area{
+    padding-top: 20px;
+}
+.social-area h1{
+    background-color: white;
+    width: 491px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    letter-spacing: 15px;
+    padding: 20px;
+}
+.social-area p{
+    background-color: white;
+    width: 430px;
+    height: 68px;
+    top: 1692px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+}
+/* social-area-end */
+.showing{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+/* box-area-start */
+.banner-card-1{
+    background-image: url(image/instagram.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 375px;
+
+}
+.color{
+    color: white;
+    text-align: center;
+    padding-top: 185px;
+}
+.banner-card-2{
+        background-image: url(image/youtube.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-3{
+        background-image: url(image/facebook.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-4{
+        background-image: url(image/twitter.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    /* box-area-end */
+/* footer-area-start */
+.circle{
+    border: 1px solid white;
+    height: 80px;
+    width: 80px;
+    border-radius:50% ;
+    
+}
+.bttn{
+   margin-top: -60px;
+}
+.position{
+    padding-top: 50px;
+  
+}
+.position-1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* footer-area-start */
+@media screen and (max-width:912px) {
+    .background-image {
+        height:400px;
+    }
+    .background-image-two{
+        height:400px;
+    }
+    .background-image-three{
+        height: 400px;
+    }
+    .background-image-four{
+        height: 400px;
+    }
+}
+@media screen and (max-width:640px) {
+    .background-image {
+        height:200px;
+    }
+    .background-image-two{
+        height:200px;
+    }
+    .background-image-three{
+        height: 200px;
+    }
+    .background-image-four{
+        height: 200px;
+    }
+}
